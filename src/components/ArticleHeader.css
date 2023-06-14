@@ -1,0 +1,28 @@
+img {
+  max-width: 100%;
+  margin: 0;
+  padding:0;
+}
+
+figure {
+  margin:1rem -1rem;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+figcaption {
+  padding: 0.5rem;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.small {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+}

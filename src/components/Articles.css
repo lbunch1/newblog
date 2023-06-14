@@ -1,0 +1,17 @@
+.articles {
+  padding: 2rem;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+li {
+  padding-left: 0;
+}
+

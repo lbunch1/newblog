@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Courier+Prime&display=swap');
+
+.site-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: 'Courier Prime', monospace;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 1.6rem;
+  padding: 0 0.3rem;
+  display: none;
+}
+
+.close {
+  padding: 1rem;
+
+}
+
+.cursive {
+  font-family: 'Caveat', cursive;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.8)
+}
+
+
+@media (max-width: 480px) {
+  .site-header {
+    position: sticky;
+    top: 0;
+    left:0;
+    background-color: #111;
+  }
+  .icon {
+    display: block;
+  }
+  .close {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  .menu-open {
+    display: block;
+  }
+}
