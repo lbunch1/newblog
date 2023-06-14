@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [
+    solid({ adpater: vercel() }),
     {
       ...(await import("@mdx-js/rollup")).default({
         jsx: true,
