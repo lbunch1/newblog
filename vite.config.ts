@@ -4,7 +4,10 @@ import vercel from "solid-start-vercel"
 
 export default defineConfig({
   plugins: [
-    solid({ adapter: vercel() }),
+    solid({
+      adapter: vercel({}),
+      extensions: [".mdx", ".md"]
+    }),
     {
       ...(await import("@mdx-js/rollup")).default({
         jsx: true,
@@ -13,8 +16,8 @@ export default defineConfig({
       }),
       enforce: "pre",
     },
-    solid({
-      extensions: [".mdx", ".md"],
-    }),
+    // solid({
+    //   extensions: [".mdx", ".md"],
+    // }),
   ],
 });
