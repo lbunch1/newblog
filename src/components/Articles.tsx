@@ -5,14 +5,6 @@ import { articles } from './articleList'
 
 export default () => {
 
-  const articleList = [
-    {
-      title: "Introduction",
-      route: "Intro",
-      date: new Date("2023-6-13")
-    },
-  ]
-
   return (
     <div class="articles">
       <ul>

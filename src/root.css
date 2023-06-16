@@ -90,6 +90,7 @@ aside {
   position: sticky;
   top: 2rem;
   max-height: 90vh;
+  min-width: 16ch;
   overflow-y: auto;
 }
 
@@ -127,7 +128,7 @@ display: flex;
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 660px) {
   aside {
     display: none;
   }

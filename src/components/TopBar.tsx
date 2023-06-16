@@ -30,7 +30,9 @@ export default function TopBar() {
         <a href="#" onClick={() => setShowMenu(!showMenu())}>
           {closeIcon}
         </a>
-        <Articles />
+        <div onClick={() => setShowMenu(!showMenu())}>
+          <Articles />
+        </div>
       </div>
     </div >
   )
