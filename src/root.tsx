@@ -1,7 +1,6 @@
 // @refresh reload
 import { Suspense } from "solid-js";
 import {
-  A,
   Body,
   ErrorBoundary,
   FileRoutes,
@@ -24,6 +23,8 @@ export default function Root() {
         <Title>logno.dev</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/panda-syntax-dark.min.css" />
       </Head>
       <Body>
         <ErrorBoundary>
@@ -43,6 +44,8 @@ export default function Root() {
           <Footer />
         </ErrorBoundary>
         <Scripts />
+        <script src="//unpkg.com/@highlightjs/cdn-assets@11.7.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
       </Body>
     </Html>
   );

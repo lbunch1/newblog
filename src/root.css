@@ -24,9 +24,13 @@ a:hover {
   color: #fff;
 }
 
+code {
+  border-radius: 14px;
+}
+
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .article {
