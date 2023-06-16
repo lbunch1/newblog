@@ -4,7 +4,7 @@
   font-size: 1rem;
 }
 
-ul {
+.articles > ul {
   list-style: none;
   padding-left: 0;
   max-height: 90vh;
