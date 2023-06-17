@@ -22,14 +22,14 @@ export default function TopBar() {
 
   return (
     <div class="site-header">
-      <a href="#" onClick={() => setShowMenu(!showMenu())}>
+      <div onClick={() => setShowMenu(!showMenu())}>
         {burgerIcon}
-      </a>
+      </div>
       <A href="/">logno.dev <span class="cursive">blog</span></A>
       <div classList={{ ["menu-open"]: showMenu(), menu: true }}>
-        <a href="#" onClick={() => setShowMenu(!showMenu())}>
+        <div onClick={() => setShowMenu(!showMenu())}>
           {closeIcon}
-        </a>
+        </div>
         <div onClick={() => setShowMenu(!showMenu())}>
           <Articles />
         </div>

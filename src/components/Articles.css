@@ -11,7 +11,7 @@
   overflow-y: auto;
 }
 
-li {
-  padding-left: 0;
+.articles > ul > li {
+  padding-bottom: 1em;
 }
 

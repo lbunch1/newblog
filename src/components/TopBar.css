@@ -54,4 +54,7 @@
   .menu-open {
     display: block;
   }
+  .articles > ul > li > a {
+    font-size: 1.6rem;
+  }
 }
