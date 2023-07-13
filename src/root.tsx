@@ -46,7 +46,7 @@ export default function Root() {
         </ErrorBoundary>
         <Scripts />
         <script src="//unpkg.com/@highlightjs/cdn-assets@11.7.0/highlight.min.js"></script>
-        <script>hljs.highlightAll(); inject()</script>
+        <script>hljs.highlightAll();{inject()} </script>
       </Body>
     </Html>
   );
