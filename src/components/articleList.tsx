@@ -18,6 +18,15 @@ export const articles = [
       credit: "Gia Oris"
     },
     blurb: "I am no expert in coding, but I have spent a significant amount of time starting to learn to code, so I feel my perspective may be of value to someone.",
+  },
+  {
+  title: "Settling into a Distro",
+  route: "settling-into-a-distro",
+  date: new Date("2023-7-12"),
+  img: {
+      src: "https://images.unsplash.com/photo-1588516302272-d9dc364954c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      credit: "Jametiene Reskp"
+    },
+  blurb: "In my Linux journey I have done a fair amount of \"distro hopping.\" For the uninitiated, distro hopping is the term used for users that maddeningly install a different Linux distribution in hopes of finding the perfect set up. We usually start with Ubuntu and then we spend the rest of our days trying to escape the grasp Canonical. Inevitably, we find our way to the abusive warmth of the Arch Linux community that won't truly love us until we fully abandon our addiction to graphical installers.",
   }
-
 ]
