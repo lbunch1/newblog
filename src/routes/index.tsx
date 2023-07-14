@@ -14,14 +14,17 @@ export default function() {
       <div class="article-feeder">
         <For each={articles}>
           {(article) => (
-            <A class="snippet" href={"/article/" + article.route}>
+	  <>
+            <A class="" href={"/article/" + article.route}>
               <h3>{article.title}</h3>
               <small>{article.date.toDateString()}</small>
               <Show when={article.img}>
                 <img src={article.img.src} alt={article.img.credit} />
               </Show>
-              <p>{article.blurb.substring(0, 83)}...</p>
+              <p>{article.blurb}... continue reading</p>
             </A>
+	    <hr />
+	  </>
           )}
         </For>
       </div>

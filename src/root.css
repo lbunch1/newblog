@@ -94,7 +94,7 @@ aside {
   position: sticky;
   top: 2rem;
   max-height: 90vh;
-  min-width: 16ch;
+  min-width: 18ch;
   overflow-y: auto;
 }
 
